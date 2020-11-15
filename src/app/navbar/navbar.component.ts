@@ -5,17 +5,17 @@ import {DomSanitizer} from '@angular/platform-browser';
 @Component({
     selector: 'app-navbar',
     templateUrl: './navbar.component.html',
-    styleUrls: ['./navbar.component.css']
+    styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit
 {
     constructor(iconRegistry: MatIconRegistry, sanitizer: DomSanitizer)
     {
-        iconRegistry.addSvgIcon('petition-logo', sanitizer.bypassSecurityTrustResourceUrl('../assets/petition-logo.svg'));
+        iconRegistry.addSvgIcon('petition-icon', sanitizer.bypassSecurityTrustResourceUrl('../assets/petition.svg'));
+        iconRegistry.addSvgIcon('menu-icon', sanitizer.bypassSecurityTrustResourceUrl('../assets/menu.svg'));
     }
 
     ngOnInit(): void
     {
     }
-
 }

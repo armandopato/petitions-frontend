@@ -1,0 +1,57 @@
+.navbar {
+    background-color: white;
+    padding: 0 4rem;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+        display: flex;
+        align-items: center;
+
+        h1 {
+            margin-left: 1.5rem;
+            color: var(--main-dark-blue);
+            letter-spacing: 0.3px;
+            font-weight: 730;
+            font-size: 2.4rem;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+
+        a {
+            font-weight: 600;
+            font-size: 1.7rem;
+            letter-spacing: 0.4px;
+            border-radius: 20px;
+            background-color: var(--main-dark-blue);
+            display: flex;
+            align-items: center;
+            height: 4rem;
+            margin-right: 2.5rem;
+        }
+
+        button {
+            width: 5rem;
+            height: 5rem;
+        }
+    }
+}
+
+.petition-icon {
+    color: var(--secondary-orange);
+    width: 3.5rem;
+    height: 3.5rem;
+    vertical-align: middle;
+}
+
+.menu-icon {
+    color: var(--main-dark-blue);
+    width: 3.2rem;
+    height: 3.2rem;
+    position: relative;
+    top: 0.1rem;
+}

@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /* Make 1rem = 10px */
+    --main-dark-blue: #1C3D6C;
+    --light-blue: #2993F2;
+    --secondary-orange: #FFA62B;
+    --gray-text: #EDE7E3;
+}
+
+body {
+    height: 100%;
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+}
