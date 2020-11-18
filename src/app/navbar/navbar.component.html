@@ -7,7 +7,9 @@
 
     <div class="buttons">
         <a color="primary" mat-flat-button>Iniciar sesión</a>
-        <button mat-icon-button>
+        <button (click)="onMenuButtonClick()"
+                [ngClass]="{'mat-button-toggle-checked cdk-focused cdk-program-focused': menuButtonClick}"
+                mat-icon-button>
             <mat-icon class="menu-icon" svgIcon="menu-icon"></mat-icon>
         </button>
     </div>
