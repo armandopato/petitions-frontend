@@ -1,9 +1,6 @@
 <mat-sidenav-container [hasBackdrop]="true">
     <mat-sidenav #sidenav mode="side" position="end">
-        P9
-        P8
-        P7
-        Paro
+        <app-sidenav></app-sidenav>
     </mat-sidenav>
     <mat-sidenav-content>
         <app-navbar (menuButtonClickChange)="sidenav.toggle()" [menuButtonClick]="sidenav.opened"></app-navbar>

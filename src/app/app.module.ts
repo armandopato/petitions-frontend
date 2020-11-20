@@ -11,13 +11,17 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {HttpClientModule} from '@angular/common/http';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import {SidenavComponent} from './sidenav/sidenav.component';
+import {SchoolGroupComponent} from './sidenav/school-group/school-group.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         NavbarComponent,
         FooterComponent,
-        LandingBodyComponent
+        LandingBodyComponent,
+        SidenavComponent,
+        SchoolGroupComponent
     ],
     imports: [
         BrowserModule,
