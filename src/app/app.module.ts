@@ -13,6 +13,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {SidenavComponent} from './sidenav/sidenav.component';
 import {SchoolGroupComponent} from './sidenav/school-group/school-group.component';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
     declarations: [
@@ -30,7 +31,8 @@ import {SchoolGroupComponent} from './sidenav/school-group/school-group.componen
         MatButtonModule,
         MatIconModule,
         MatSidenavModule,
-        HttpClientModule
+        HttpClientModule,
+        MatSelectModule
     ],
     providers: [],
     bootstrap: [AppComponent]

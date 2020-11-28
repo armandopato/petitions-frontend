@@ -1,0 +1,79 @@
+.width-container
+{
+    max-width: 1200px;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 12em;
+    justify-items: center;
+    align-items: center;
+}
+
+section
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-title
+{
+    background-color: white;
+
+    h1
+    {
+        font-size: 4rem;
+        color: var(--main-dark-blue);
+        font-weight: 650;
+        line-height: 5rem;
+    }
+
+    mat-icon
+    {
+        position: relative;
+        top: 1rem;
+        width: 550px;
+        height: auto;
+    }
+}
+
+.buttons
+{
+    display: flex;
+    align-items: center;
+    margin-top: 2.8em;
+
+    a
+    {
+        font-weight: 650;
+        font-size: 1.8rem;
+        letter-spacing: 0.4px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 4.5rem;
+        width: 16.5rem;
+    }
+
+    .login-button
+    {
+        background-color: var(--secondary-orange);
+        margin-right: 2em;
+    }
+
+    .signup-button
+    {
+        background-color: var(--light-blue);
+    }
+}
+
+.main-index
+{
+    position: relative;
+    background-color: var(--main-dark-blue);
+    color: white;
+}
