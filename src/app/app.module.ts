@@ -14,6 +14,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {SidenavComponent} from './sidenav/sidenav.component';
 import {SchoolGroupComponent} from './sidenav/school-group/school-group.component';
 import {MatSelectModule} from '@angular/material/select';
+import {MatMenuModule} from "@angular/material/menu";
 
 @NgModule({
     declarations: [
@@ -32,7 +33,8 @@ import {MatSelectModule} from '@angular/material/select';
         MatIconModule,
         MatSidenavModule,
         HttpClientModule,
-        MatSelectModule
+        MatSelectModule,
+        MatMenuModule
     ],
     providers: [],
     bootstrap: [AppComponent]

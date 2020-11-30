@@ -34,7 +34,7 @@ section
     mat-icon
     {
         position: relative;
-        top: 1rem;
+        bottom: 2rem;
         width: 550px;
         height: auto;
     }
@@ -74,6 +74,56 @@ section
 .main-index
 {
     position: relative;
+    top: -5em;
     background-color: var(--main-dark-blue);
     color: white;
+    clip-path: url(#rounded-section);
+    padding: 6em 0;
+
+    .info, .links
+    {
+        position: relative;
+    }
+
+    .info
+    {
+        top: 2em;
+    }
+
+    .links
+    {
+        bottom: 2em;
+    }
+
+    h1
+    {
+        letter-spacing: 0.4px;
+        font-size: 2.7rem;
+        font-weight: 650;
+    }
+
+    p
+    {
+        font-family: 'Heebo', sans-serif;
+        line-height: 2.5rem;
+        letter-spacing: 0.3px;
+        font-size: 1.6rem;
+        color: var(--gray-text);
+    }
+}
+
+
+.how-it-works
+{
+    position: relative;
+    top: -10em;
+    background-color: white;
+    clip-path: url(#rounded-section);
+    padding: 6em 0;
+    transform: rotateY(180deg);
+
+    .grid-container
+    {
+        transform: rotateY(180deg);
+    }
 }
