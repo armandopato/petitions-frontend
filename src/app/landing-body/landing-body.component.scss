@@ -34,7 +34,7 @@ section
     mat-icon
     {
         position: relative;
-        bottom: 2rem;
+        bottom: -0.4em;
         width: 550px;
         height: auto;
     }
@@ -74,10 +74,8 @@ section
 .main-index
 {
     position: relative;
-    top: -5em;
     background-color: var(--main-dark-blue);
     color: white;
-    clip-path: url(#rounded-section);
     padding: 6em 0;
 
     .info, .links
@@ -115,15 +113,6 @@ section
 
 .how-it-works
 {
-    position: relative;
-    top: -10em;
     background-color: white;
-    clip-path: url(#rounded-section);
     padding: 6em 0;
-    transform: rotateY(180deg);
-
-    .grid-container
-    {
-        transform: rotateY(180deg);
-    }
 }
